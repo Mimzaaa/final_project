@@ -15,7 +15,7 @@ https://possible-bolt-045.notion.site/ea4f5376189f4060a39cf01941249492?pvs=4
 ### Шаги:
 1. Склонировать проект 'git clone https://github.com/Mimzaaa/FP_ui_api_pytest.git'
 2. Установить зависимости 'pip install -r requirements.txt'
-3. Запустить тесты 'pytest --alluredir=./allure-results'
+3. Запустить тесты 'PYTHONPATH=./ pytest --alluredir=./allure-results'
 4. Сгенерировать отчет 'allure generate allure-results -o allure-report'
 5. Открыть отчет 'allure serve allure-results'
 
@@ -43,25 +43,3 @@ https://possible-bolt-045.notion.site/ea4f5376189f4060a39cf01941249492?pvs=4
 - [Генератор файла .gitignore](https://www.toptal.com/developers/gitignore/)
 - [Про configparser](https://docs.python.org/3/library/configparser.html#module-configparser)
 - [Про pip freeze](https://pip.pypa.io/en/stable/cli/pip_freeze/)
-
-
-
-final_project
-- ./configuration - провайдер настроек
- - ConfigProvider.py
-- ./pages - описание страниц
- - api_class.py
- - ui_class.py
-- ./testdata - провайдер тестовых данных
- - DataProvider.py
-- ./test - тесты
- - сonftest.py
- - tets_api.py
- - test_ui.py
-- ./.gitignore
-- ./conf.ini
-- ./pytest.ini
-- ./README.md
-- ./test_config.ini - настройки для тестов
-- ./test_data.json
-- ./requirements.txt - зависимости
