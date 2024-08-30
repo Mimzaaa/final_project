@@ -1,0 +1,25 @@
+{
+    "api_search_phrases": ["ревизор", "", "@$@$@$"],
+    "book_id": 3026125,
+    "personal_data": {
+            "lastName": "Sadovina",
+            "firstName": "Дарья",
+            "middleName": "Александровна",
+            "birthday": "1995-09-10",
+            "phone": "79877249612",
+            "email": "din.tan12@gmail.com",
+            "phoneCountry": ""
+        },
+    "search_data": {
+        "ui_phrase_val_1": "проверка",
+        "ui_phrase_val_2": "the miracle morning",
+        "ui_phrase_val_3": "ид",
+        "ui_phrase_val_4": "рвизор",
+        "ui_phrase_val_5": "ревизор!",
+        "ui_phrase_neg_1": "николайгоголь",
+        "ui_phrase_neg_2": "и",
+        "ui_phrase_neg_3": "@#$%^&",
+        "ui_phrase_neg_4": "",
+        "ui_phrase_neg_5": "     "
+    }
+}
