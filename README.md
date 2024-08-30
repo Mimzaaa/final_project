@@ -15,7 +15,7 @@ https://possible-bolt-045.notion.site/ea4f5376189f4060a39cf01941249492?pvs=4
 ### Шаги:
 1. Склонировать проект 'git clone https://github.com/Mimzaaa/FP_ui_api_pytest.git'
 2. Установить зависимости 'pip install -r requirements.txt'
-3. Запустить тесты 'pytest --alluredir=./allure-results'
+3. Запустить тесты 'PYTHONPATH=./ pytest --alluredir=./allure-results'
 4. Сгенерировать отчет 'allure generate allure-results -o allure-report'
 5. Открыть отчет 'allure serve allure-results'
 
